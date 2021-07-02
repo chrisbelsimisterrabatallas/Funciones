@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\FUNCIONES.dir/objects.a
+C:\Mingw64\mingw64\bin\ar.exe cr CMakeFiles\FUNCIONES.dir/objects.a @CMakeFiles\FUNCIONES.dir\objects1.rsp
+C:\Mingw64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\FUNCIONES.dir/objects.a -Wl,--no-whole-archive  -o FUNCIONES.exe -Wl,--out-implib,libFUNCIONES.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FUNCIONES.dir\linklibs.rsp
